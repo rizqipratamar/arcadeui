@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  /* Modern Pixel Art Color Palette */
+  --color-pixel-black: #1a1a1a;
+  --color-pixel-darkGray: #2c2c2c;
+  --color-pixel-gray: #4a4a4a;
+  --color-pixel-lightGray: #8a8a8a;
+  --color-pixel-white: #fafafa;
+
+  /* Vibrant Primary Colors */
+  --color-pixel-blue: #4169e1;
+  --color-pixel-darkBlue: #1e3c8c;
+  --color-pixel-red: #ff4757;
+  --color-pixel-darkRed: #c0392b;
+  --color-pixel-green: #2ecc71;
+  --color-pixel-darkGreen: #27ae60;
+
+  /* Accent Colors */
+  --color-pixel-yellow: #ffd32a;
+  --color-pixel-orange: #ff9f43;
+  --color-pixel-purple: #9b59b6;
+  --color-pixel-pink: #fd79a8;
+
+  /* Fonts */
+  --font-pixel: "Silkscreen", "Pixelated MS Sans Serif", "Monaco", monospace;
+  --font-retro: "Share Tech Mono", "Roboto Mono", monospace;
+
+  /* Enhanced Shadows */
+  --shadow-pixel: 4px 4px 0px 0px rgba(0, 0, 0, 0.75);
+  --shadow-pixel-sm: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+  --shadow-pixel-lg: 6px 6px 0px 0px rgba(0, 0, 0, 0.75);
+  --shadow-pixel-xl: 8px 8px 0px 0px rgba(0, 0, 0, 0.75);
+  --shadow-pixel-inner: inset 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
+
+  /* Transitions */
+  --transition-pixel: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-pixel-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@tailwind {
+  content: [ "./index.html", "./src/**/*.{js,ts,jsx,tsx}"];
+  plugins: [];
+}
