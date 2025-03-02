@@ -2,6 +2,14 @@
 
 A pixel-perfect React component library for building retro-styled user interfaces with modern web technologies.
 
+<div align="center">
+  <h2>📚 Interactive Documentation</h2>
+  <p>Explore our components and examples in our comprehensive documentation:</p>
+  <a href="https://arcade-ui.pages.dev/" style="display: inline-block; background-color: #FF5F56; color: white; font-weight: bold; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin: 20px 0;">
+    <strong>📘 View Documentation</strong>
+  </a>
+</div>
+
 ## Features
 
 - 🎮 Pixel-perfect design system
@@ -40,6 +48,12 @@ function App() {
   );
 }
 ```
+
+## Documentation
+
+Explore our components and examples in our interactive documentation:
+
+[https://arcade-ui.pages.dev/](https://arcade-ui.pages.dev/)
 
 ## Requirements
 

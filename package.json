@@ -27,8 +27,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc --emitDeclarationOnly",
-    "prepare": "yarn build",
+    "build": "yarn build:lib && yarn build:docs",
+    "build:lib": "vite build --config vite.lib.config.ts && tsc --emitDeclarationOnly",
+    "build:docs": "vite build --config vite.docs.config.ts",
+    "prepare": "yarn build:lib",
     "lint": "eslint .",
     "preview": "vite preview"
   },
